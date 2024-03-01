@@ -6,7 +6,7 @@ Ans. For Numeric Data Types (e.g., int, double, float, byte, short, long):
       The default value for character arrays is the null character '\u0000'.The default value for boolean arrays is false.
     For Object Types (e.g., reference types):
       The default value for object arrays (including arrays of reference types like classes or custom objects) is null.
-
+  
 Can you pass the negative number in Array size?
 Ans. No, you cannot pass a negative number as the size of an array in Java. Attempting to create an array with a negative size will result in a runtime exception called NegativeArraySizeException.
 int[] myArray = new int[-5]; // This will throw a NegativeArraySizeException
